@@ -1,101 +1,123 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon-CXZl4tsC.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joey's Website</title>
-    <script type="module" crossorigin src="/assets/index-VQ6Cp9jn.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bh6YdVm9.css">
+    <title>Joey Heifetz • Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" crossorigin src="/assets/index-lwlvswac.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DH5-YWX2.css">
   </head>
   <body>
-
     <canvas id="bg"></canvas>   
-
     <main>
-
       <header>
-        <h1>Joey Heifetzy</h1>
-        <p>🚀 Welcome to my website!</p>
+        <h1>Joey Heifetz</h1>
+        <p>👨‍💻 Developer • Researcher • Builder</p>
       </header>
 
-
       <blockquote>
-        <p>I like making stuff up and putting it on the internet, Just like Netscape!</p>
+        <p>"I like making stuff up and putting it on the internet. Just like Netscape!"</p>
       </blockquote>
 
       <section>
         <h2>📜 Manifesto</h2>
         <p>
-          I am Yosef Heifetz, a passionate student, driven by the art of full-stack coding, the discipline of fitness, and the creativity of cooking. My life revolves around mastering the balance between mental and physical development, from building functional, beautiful websites to pushing my limits in the gym and experimenting with flavors in the kitchen.
+          I'm Yosef (Joey) Heifetz — a full-stack developer, reverse engineer, and language enthusiast.
+          I build tools, simulations, and apps that balance performance, UX, and creativity.
+          Whether it's translating virtual machine code, building dynamic UIs in Flutter, or designing scalable SQL schemas, I love solving hard problems.
         </p>
-
-        <p>
-          Friends & Family:
-          The connections I have with my friends and family shape who I am. They are my support system, my inspiration, and my motivation to keep growing. I believe in nurturing these relationships, as they provide balance and perspective, reminding me of what truly matters. Whether it's sharing a meal, working on a project, or just spending time together, the people in my life ground me and push me to be my best self.
-        </p>
-
-        <p>
-          Helping the Community:
-          I believe in giving back. Whether it's through volunteering my skills as a coder or helping out in other ways, contributing to the community is important to me. I strive to use my knowledge and abilities to help others, whether it’s through mentorship, creating helpful tools, or simply lending a hand where it’s needed. Making a positive impact on those around me is just as important as personal achievement.
-        </p>
-
-        <p>
-          Fitness:
-          I believe that physical health is just as important as mental sharpness. Working out helps me stay focused, disciplined, and resilient. The strength I build in the gym reflects in the strength I bring to coding—dedication, persistence, and pushing through challenges.          
-        </p>
-
-        <p>
-          Cooking:
-          Cooking is my creative outlet, a space where I can experiment, fail, and succeed. Just like in coding, I love the process of trying out new ingredients (technologies), following recipes (best practices), and creating something unique that brings joy to others.
-        </p>
-
       </section>
 
       <section class="light">
-        <h2>👩🏽‍🚀 Projects</h2>
-
-        <p>
-          Ray Tracer
-        </p>
-
-        <h2>🏆 Accomplishments</h2>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
+        <h2>🚀 Featured Projects</h2>
+        <div class="projects">
+          <div class="card">
+            <h3>🧠 GuardIntel</h3>
+            <p>
+              A predictive analytics dashboard integrating AI and web scraping to improve situational awareness. Built using Flask, React, and SQL. My role included backend logic and frontend visualizations.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🏎️ 3D Racing Game (WebGL)</h3>
+            <p>
+              A dynamic racing game with terrain, camera-following logic, and responsive input — built in Three.js and raw WebGL for graphics rendering.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🧮 Otomat: Automaton Visualizer</h3>
+            <p>
+              Visualized finite automata transitions in a clean web interface, featuring live updates, Flask server logic, and Python graph-state drawing.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🎰 Slot Machine Game</h3>
+            <p>
+              Browser-based slot machine with VIP and ad-revenue features, deployed on Railway. Gamified front-end using JS and animations.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🛠️ Jack Compiler & VM Translator</h3>
+            <p>
+              Built a Jack language compiler and virtual machine translator in C++ and Lean, applying formal verification and IR optimization (CSE, copy propagation, etc.).
+            </p>
+          </div>
+        </div>
       </section>
 
-      <blockquote>
-        <p>The best way out is always through <br>-Robert Frost</p>
-      </blockquote>
+      <section>
+        <h2>🧰 Tech Stack</h2>
+        <ul>
+          <li><strong>Frontend:</strong> Flutter, React (JS), Three.js, Tailwind CSS</li>
+          <li><strong>Backend:</strong> Flask, Node.js, PostgreSQL, PL/pgSQL</li>
+          <li><strong>Languages:</strong> Python, C++, Lean, Java, SQL</li>
+          <li><strong>Tooling:</strong> Git, VSCode, IDA, Mix (Flutter design system), Railway</li>
+        </ul>
+      </section>
 
       <section class="left">
-        <h2>🌮 Work History</h2>
+        <h2>🏆 Accomplishments</h2>
+        <ul>
+          <li>🧑‍🏫 Mentored junior developers and engineers</li>
+          <li>🛠️ Built full-stack projects solo and in teams</li>
+          <li>🔍 Conducted reverse engineering analysis with IDA Pro</li>
+          <li>📚 Implemented advanced compiler optimization in C++</li>
+          <li>🔁 Designed normalized relational DBs with 150+ records/table</li>
+        </ul>
+      </section>
 
-        <h3>McDonalds</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h3>Burger King</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h3>Taco Bell</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+      <section class="left">
+        <h2>📂 Work History</h2>
+        <div>
+          <h3>Logistics & Database - United Hatzala</h3>
+          <p>Oversaw warehouse operations and created tracking systems with Excel and SQL-style logic for equipment flow.</p>
 
+          <h3>Senior Counselor - Ariel Youth Movement</h3>
+          <p>Led educational and physical activities for youth, coordinated team efforts, and designed leadership curriculum.</p>
+
+          <h3>Camp Instructor - Machanayim</h3>
+          <p>Volunteer leadership in arts, sports, and creative instruction — promoting teamwork and initiative in campers.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>📌 Now</h2>
+        <p>
+          Currently working on integrating formal verification (Lean) with compiler design, developing token-based design systems in Flutter, and building small web games for monetization experiments.
+        </p>
+      </section>
+
+      <section>
+        <h2>🍳 Beyond the Code</h2>
+        <p>
+          Outside of tech, I stay active with fitness, experiment in the kitchen, and enjoy thinking deeply about how languages (human and machine) shape our logic.
+        </p>
       </section>
 
       <blockquote>
-        <p>Thanks for stoping by!</p>
+        <p>Thanks for stopping by — feel free to reach out or explore my code!</p>
       </blockquote>
-
-
     </main>
-    
   </body>
 </html>

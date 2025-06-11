@@ -59,6 +59,7 @@ canvas {
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
+    border-radius:10px;
   }
 
   blockquote {
@@ -79,3 +80,48 @@ canvas {
   .left {
     grid-column: 6 / 12;
   }
+
+
+  .social-links a {
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.social-links a:last-child {
+  color: #333; /* GitHub black */
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.github-stats-section {
+  background-color: #111;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.github-stats-section h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.iframe-container {
+  display: flex; 
+  justify-content: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color:rgba(76, 70, 70, 0.5);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.iframe-container iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  border: none;
+  border-radius: 0.5rem;
+}
